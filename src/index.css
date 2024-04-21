@@ -275,6 +275,7 @@ main {
   border-color: transparent;
   color: var(--primary-500);
   animation: bounce 2s ease-in-out infinite;
+  cursor: pointer;
 }
 
 @keyframes bounce {
@@ -307,7 +308,6 @@ Modal
   z-index: -1;
   visibility: hidden;
   opacity: 0;
-  transition: ;
 }
 
 .show-modal {
@@ -340,3 +340,9 @@ Modal
   cursor: pointer;
   color: var(--red-dark);
 }
+
+/*
+=============== 
+Sidebar
+===============
+*/
